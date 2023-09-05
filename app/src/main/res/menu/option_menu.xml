@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/back"
+
+        android:icon="@drawable/baseline_menu_24"
+        android:title="Go To Back" />
+    <item android:icon="@drawable/baseline_menu_24"
+      android:id="@+id/forward"
+        android:title="Go Forward"/>
+    <item android:icon="@drawable/baseline_menu_24"
+        android:id="@+id/Forget"
+        app:showAsAction="ifRoom"
+        android:title="Go Forward"/>
+</menu>
